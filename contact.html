@@ -3,24 +3,25 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Contact</title>
+  <title>contacts</title>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <h3>Contact with me</h3>
+  <h3>Contact with me:</h3>
   <p>Mohammad Nazmul Hasan</p>
   <p>Phone : 01823830626</p>
   <p>email : nazmul.robot@gmail.com </p>
+  <hr>
+  <form action="mailto:nazmul.robot@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name</label>
+    <input type="text" name="Yourname" value=""> <br> <br>
+    <label>Your email:</label>
+    <input type="email" name="Yourmail" value=""> <br>
+    <label>Your Massage</label> <br>
+    <textarea name="YourMassage" rows="10" cols="30"></textarea> <br>
+    <input type="submit" name="">
+  </form>
 </body>
-<hr>
-<form action="mailto:nazmul.robot@gmail.com" method="post" enctype="text/plain">
-  <label>Your Name:</label>
-  <input type="text" name="YourName" value=""><br><br>
-  <label>Your email: </label>
-  <input type="email" name="YourEmail" value=""><br>
-  <label>Your massage :</label><br>
-  <textarea name="YourMassage" rows="10" cols="30"></textarea><br>
-  <input type="submit" name="">
-</form>
 
 </html>
